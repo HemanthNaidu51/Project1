@@ -1,0 +1,63 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="pricing-plans">
+            <h2>Pricing Plans</h2>
+            <div class="plan-container">
+                <div class="plan" data-plan="basic">
+                    <h3>Basic</h3>
+                    <p> ₹149/Month</p>
+                    <ul>         
+                        <li>1 User</li>
+                        <li>Video and Audio Quality:Good</li>
+                        <li>Resolution:720p(HD)</li>
+                        <li>No Ads</li>
+                    </ul>
+                    <button class="toggle-button" data-toggle="basic">Choose</button>
+                </div>
+                <div class="plan" data-plan="premium">
+                    <h3>Premium</h3>
+                    <p>₹299/Month</p>
+                    <ul>
+                        <li>5 Users</li>
+                        <li>Video and Audio Quality:Great</li>
+                        <li>Resolution:1080p(FULL HD)</li>
+                        <li>No Ads</li>
+                    </ul>
+                    <button class="toggle-button" data-toggle="premium">Choose</button>
+                </div>
+                <div class="plan" data-plan="pro">
+                    <h3>Pro</h3>
+                    <p>₹499/Month</p>
+                    <ul>
+                        <li>10 Users</li>
+                        <li>Video and Audio Quality:Best</li>
+                        <li>Resolution:4K(Ultra HD)+HDR</li>
+                        <li>No Ads</li>
+                    </ul>
+                    <button class="toggle-button" data-toggle="pro">Choose</button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
